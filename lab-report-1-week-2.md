@@ -40,5 +40,9 @@ This is a brief tutorial on how to install VScode and access course specific con
 * upon successful creation, you should see output similar to this:
  ![](SSHKeyGen.png)
 * Now copy the public key from your local computer onto your virtual computer using the scp function and making a directory called `.ssh`
-* The steps are shown below
-  
+* The steps are shown below in the images
+ ![](SSHKey1.png)
+---
+  ![](SSHKey2.png)
+* As you can see in the second image, we logged into our SSH server without a passphrase
+
