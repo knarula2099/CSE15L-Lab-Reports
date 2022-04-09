@@ -15,7 +15,7 @@ This is a brief tutorial on how to install VScode and access course specific con
 * Open the terminal on VScode and input the following command:
 
     `ssh cs15lsp22zz@ieng6.ucsd.edu`
-* If this is the first time you are connecting to the server it will ask you which essentially asks you if you trust the server. You should reply yes to it.
+* If this is the first time you are connecting to the server it will ask you which essentially asks you if you trust the server; You should reply yes to it
 * It will next ask you to enter the password for the server. Upon successful connection, you should see something like this:
  ![](SSHStartup.png)
 
@@ -30,7 +30,15 @@ This is a brief tutorial on how to install VScode and access course specific con
 
 ## Step 4: Moving Files over with the scp command
 * The scp command allows the transfer of files between two computer(unix or non-unix)
-* You can use it to transfer files between your physical and remote computer to have the files available on another server
+* You can use it to transfer files between your local and remote computer to have the files available on another server
 * You can also use it to run your files on a more powerful computer with more resources available.
 ![](SCPcommand.png)
-
+## Step 5: Setting an SSH Key
+* To setup the SSH key, you need to use a function called `ssh-keygen`
+* This creates a public and private key
+* It will ask you to input a passphrase and if you don't want to put in any passkey, you can simply press enter when the terminal asks for these inputs
+* upon successful creation, you should see output similar to this:
+ ![](SSHKeyGen.png)
+* Now copy the public key from your local computer onto your virtual computer using the scp function and making a directory called `.ssh`
+* The steps are shown below
+  
