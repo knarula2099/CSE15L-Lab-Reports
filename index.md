@@ -1,0 +1,1 @@
+redirect to lab report [here](lab-report-1-week-2.html)
