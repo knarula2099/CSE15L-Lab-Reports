@@ -12,7 +12,7 @@ This is a brief tutorial on how to install VScode and access course specific con
 
 ## Step 2: Remotely connecting
 * Before you remotely connect to the UCSD, server, it is recommended to download the openSSH software which you can download from this [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
-* Open the terminal on VScode and input the following command:
+* Open the terminal on VScode and input the following command(replace zz with your own username):
 
     `ssh cs15lsp22zz@ieng6.ucsd.edu`
 * If this is the first time you are connecting to the server it will ask you which essentially asks you if you trust the server; You should reply yes to it
