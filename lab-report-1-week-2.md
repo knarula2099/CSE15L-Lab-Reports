@@ -53,10 +53,11 @@ This is a brief tutorial on how to install VScode and access course specific con
 * As you can see in the second image, we logged into our SSH server without a passphrase
 
 ## Step 6: Optimizing remote running
-* With the SSH key, we can now transfer files between our computers in a far more time efficient manner
-* As seen below, the steps to transfer files between two computers has greatly reduced:
+* With the SSH key, we can now transfer files between our computers in a far more time efficient manner.
+* using a `;` we can run multiple unix commands in one line and if we put commands in `""` after changing to the SSH server, we can carry out commands in the remote computer directly without waiting for it to first startup. 
+* In just one line, I can copy a file onto the server, connect to the remote server and run the java code.
 
- ![](optimizedrunning.png)
+ ![](optimizedrunningupdated.png)
 
 
  __And that is all you need to get started to work on SSH!__
