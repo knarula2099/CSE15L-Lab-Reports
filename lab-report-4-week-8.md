@@ -3,7 +3,7 @@
 In this lab report, I will be testing the MarkdownParse program that I developed, and the one my group carried out a review for in the week 7 Lab.
 
 ## Testing the codes
-**[Link to my repository](git@github.com:knarula2099/markdown-parser.git)**
+**[Link to my repository](https://github.com/knarula2099/markdown-parser)**
 
 **[Link to reviewed repository](https://github.com/henrigy/markdown-parser.git)**
 ### Snippet 1
